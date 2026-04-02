@@ -41,12 +41,14 @@ export default function ApiExplorer() {
           />
         </label>
 
-        <div className="chip-row" role="tablist" aria-label="Filter API categories">
+        <div className="chip-row" role="group" aria-label="Filter API categories">
           {CATEGORY_FILTERS.map((category) => (
             <button
               key={category}
               className={`chip-btn ${activeCategory === category ? "active" : ""}`}
               type="button"
+              aria-pressed={activeCategory === category}
+              aria-controls="api-grid"
               onClick={() => setActiveCategory(category)}
             >
               {category === "ALL" ? "All" : category}
