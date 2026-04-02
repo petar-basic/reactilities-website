@@ -79,7 +79,7 @@ export default function HomePage() {
 
           <div className="stat-grid" role="list" aria-label="Key stats">
             <article className="stat-card" role="listitem">
-              <p className="stat-value">52+</p>
+              <p className="stat-value">69+</p>
               <p className="stat-label">React hooks</p>
             </article>
             <article className="stat-card" role="listitem">
@@ -145,7 +145,7 @@ export default function HomePage() {
             <article className="feature-card">
               <h3>Well Tested</h3>
               <p>
-                421 tests and 99%+ coverage reduce regression risk and increase confidence
+                99%+ coverage reduce regression risk and increase confidence
                 in production.
               </p>
             </article>
@@ -192,29 +192,34 @@ export default function HomePage() {
 
           <div className="index-grid">
             <details open>
-              <summary>DOM Hooks (16)</summary>
+              <summary>DOM Hooks (21)</summary>
               <p>
-                useClickOutside, useDarkMode, useDocumentTitle, useEventListener,
-                useFavicon, useFocusTrap, useFullscreen, useHover, useLockBodyScroll,
-                useLongPress, useMediaQuery, useMousePosition, usePageVisibility,
-                useResizeObserver, useScrollPosition, useWindowSize
+                useBattery, useClickOutside, useDarkMode, useDocumentTitle,
+                useEventListener, useFavicon, useFocusTrap, useFullscreen, useHover,
+                useLockBodyScroll, useLongPress, useMediaQuery, useMousePosition,
+                useOrientation, usePageVisibility, usePortal, useResizeObserver,
+                useRovingTabIndex, useScrollPosition, useScrollTo, useWindowSize
               </p>
             </details>
             <details>
-              <summary>State Hooks (13)</summary>
+              <summary>State Hooks (15)</summary>
               <p>
-                useCookie, useCopyToClipboard, useList, useLocalStorage, useMap,
-                useObjectState, usePrevious, useSessionStorage, useSet, useToggle,
-                useUndoRedo, useBoolean, useCounter
+                useBoolean, useClipboard, useCookie, useCopyToClipboard, useCounter,
+                useList, useLocalStorage, useMap, useObjectState, usePrevious,
+                useSessionStorage, useSet, useStep, useToggle, useUndoRedo
               </p>
             </details>
             <details>
-              <summary>Utility Hooks (17)</summary>
+              <summary>Utility Hooks (29)</summary>
               <p>
-                useAsync, useCountdown, useDebounce, useFetch, useGeolocation,
-                useInfiniteScroll, useIsMounted, useIntersectionObserver, useInterval,
-                useKeyboardShortcuts, useManualUpdate, useNetworkState, usePermission,
-                useThrottle, useTimeout, useVirtualization, useWebSocket
+                useAsync, useAutoSave, useCountdown, useDebounce,
+                useDebounceCallback, useDragAndDrop, useEventSource, useFetch,
+                useFileReader, useGeolocation, useIdleTimeout, useImageLazyLoad,
+                useInfiniteScroll, useIntersectionObserver, useInterval, useIsMounted,
+                useKeyboardShortcuts, useLogger, useNetworkState, usePermission,
+                useSpeechRecognition, useSpeechSynthesis, useThrottle,
+                useThrottleCallback, useTimeout, useVirtualization, useWebSocket,
+                useWhyDidYouRender, useWorker
               </p>
             </details>
             <details>
