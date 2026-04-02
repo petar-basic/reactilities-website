@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://reactilities.dev/sitemap.xml
