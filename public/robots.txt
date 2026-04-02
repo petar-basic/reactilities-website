@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://reactilities.dev/sitemap.xml
+Sitemap: https://petar-basic.github.io/reactilities-website/sitemap.xml

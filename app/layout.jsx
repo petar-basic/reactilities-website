@@ -15,7 +15,7 @@ const ibmPlexMono = IBM_Plex_Mono({
   weight: ["400", "500"]
 });
 
-const defaultSiteUrl = "https://reactilities.dev";
+const defaultSiteUrl = "https://petar-basic.github.io/reactilities-website";
 const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? defaultSiteUrl;
 const siteUrl = configuredSiteUrl.endsWith("/")
   ? configuredSiteUrl.slice(0, -1)
